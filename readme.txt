@@ -1,4 +1,4 @@
-Welcome to University DataBase Project:
+Welcome to University DataBase Project!
 
 Goals: 
 * design an ER schema diagram 
