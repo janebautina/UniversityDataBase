@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>A New Student Form.</title>
+      <style type="text/css">
+         h1 {text-align: center; color: blue}
+         h2 {font-family: Ariel, sans-serif; text-align: left; color: blue}
+         p.footer {text-align: center}
+         table.output {font-family: Ariel, sans-serif}
+      </style>
+   </head>
+   <body>
+      <form action="InsertNewStudent.php" method="POST">
+         <!-- Page Headers -->
+         <h1> A New Student Form </h1>
+         <hr />
+         <br />
+         <p> <b>Enter Student StudentID, Last Name and First Name:</b> </p>
+         <table>
+            <tr>
+               <td>&nbsp;StudentID:&nbsp;&nbsp;</td>
+               <td><input type="text" name="StudentID" size="50" />
+               </td>
+            </tr>
+            <tr>
+               <td>&nbsp;Last Name:&nbsp;&nbsp;</td>
+               <td><input type="text" name="LastName" size="25" />
+               </td>
+            </tr>
+            <tr>
+               <td>&nbsp;First Name:&nbsp;&nbsp;</td>
+               <td><input type="text" name="FirstName" size="25" />
+               </td>
+            </tr>
+         </table>
+         <p> <b>Enter Student Street Address, City, State and ZIP Code:</b> </p>
+         <table>
+            <tr>
+               <td>&nbsp;Street Address:&nbsp;&nbsp;</td>
+               <td><input type="text" name="Street" size="35" />
+               </td>
+            </tr>
+            <tr>
+               <td>&nbsp;City:&nbsp;&nbsp;</td>
+               <td><input type="text" name="City" size="35" />
+               </td>
+            </tr>
+            <tr>
+               <td>&nbsp;State:&nbsp;&nbsp;</td>
+               <td><input type="text" name="State" size="2" />
+               </td>
+            </tr>
+            <tr>
+               <td>&nbsp;ZIP Code:&nbsp;&nbsp;</td>
+               <td><input type="text" name="Zip" size="10" />
+               </td>
+            </tr>
+         </table>
+         <p> <b>Enter Student Start Term, Birth Date, MajorID and Phone:</b> </p>
+         <table>
+            <tr>
+               <td>&nbsp;Start Term:&nbsp;&nbsp;</td>
+               <td><input type="text" name="StartTerm" size="35" />
+               </td>
+            </tr>
+            <tr>
+               <td>&nbsp;Birth Date:&nbsp;&nbsp;</td>
+               <td><input type="text" name="BirthDate" size="35" />
+               </td>
+            </tr>
+            <tr>
+               <td>&nbsp;MajorID:&nbsp;&nbsp;</td>
+               <td><input type="text" name="MajorID" size="2" />
+               </td>
+            </tr>
+            <tr>
+               <td>&nbsp;Phone:&nbsp;&nbsp;</td>
+               <td><input type="text" name="Phone" size="10" />
+               </td>
+            </tr>
+         </table>
+         <p> <br />
+         <hr />
+         <p>
+            <input type="submit" value="Add New Student" />
+            <input type="reset" value="Reset Values" />
+         </p>
+      </form>
+      <br />
+      <hr />
+      <p class="footer"> 
+      <p style="text-align: center"> <a href="http://localhost/university/universityBrowse.php"> Return
+         to the University Home Page </a> 
+      </p>
+      </p>
+      <hr />
+   </body>
+</html>
